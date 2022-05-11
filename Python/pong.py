@@ -12,7 +12,8 @@ offsets = {
     "left": (-20, 0),
     "right": (20, 0)
 }
- 
+ #hi this code is actually for the "snake game" despite being called pong.py haha 
+ #definitely need to rename this!
 def reset():
     global snake, snake_dir, food_position, pen
     snake = [[0, 0], [0, 20], [0, 40], [0, 60], [0, 80]]
